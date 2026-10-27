@@ -5,6 +5,9 @@ Application installable sur téléphone (Android, iPhone) et ordinateur, qui rem
 
 - **un espace par médecin** : au lancement, chacun choisit son espace (« Dr Martin »…) et ne voit que
   ses patients ; un code personnel peut le protéger (verrouillage automatique après 5 min hors de l'app) ;
+- **plusieurs motifs de consultation par patient** : s'il revient pour autre chose (ex. un eczéma après
+  un ulcère), on crée un nouveau motif dans le même dossier ; chaque motif a ses photos, son J0, ses notes et
+  son statut (en cours / guéri) ;
 - **un dossier par patient** (nom, n° de dossier, notes), recherche, tri récent / A→Z ;
 - **prendre une photo** directement ou **importer** depuis la galerie (plusieurs à la fois) ;
   la date de prise de vue est lue automatiquement dans la photo et reste modifiable ;
