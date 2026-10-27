@@ -3,6 +3,8 @@
 Application installable sur téléphone (Android, iPhone) et ordinateur, qui remplace le dossier
 « un album par patient » de la galerie photo :
 
+- **un espace par médecin** : au lancement, chacun choisit son espace (« Dr Martin »…) et ne voit que
+  ses patients ; un code personnel peut le protéger (verrouillage automatique après 5 min hors de l'app) ;
 - **un dossier par patient** (nom, n° de dossier, notes), recherche, tri récent / A→Z ;
 - **prendre une photo** directement ou **importer** depuis la galerie (plusieurs à la fois) ;
   la date de prise de vue est lue automatiquement dans la photo et reste modifiable ;
@@ -19,6 +21,11 @@ Les photos restent **uniquement sur l'appareil** (IndexedDB du navigateur) : rie
 internet. Les fichiers de sauvegarde contiennent des données de santé : à conserver en lieu sûr.
 Sur iPhone, installer l'app sur l'écran d'accueil évite que Safari efface les données d'un site
 inutilisé.
+
+Le code d'un espace empêche un autre médecin utilisant le même appareil de l'ouvrir ; ce n'est pas un
+chiffrement des photos. Chaque médecin peut aussi simplement installer l'app sur son propre téléphone.
+
+Police : EB Garamond (licence libre SIL OFL), incluse dans `fonts/` pour fonctionner hors ligne.
 
 ## Installer
 
